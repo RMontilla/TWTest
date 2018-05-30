@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DF39D5ACAD4FDD2D02535A8 /* Pods_TeamworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BE02D07C3088728B952E1F /* Pods_TeamworkTest.framework */; };
+		B1D138E6C0990F5989D906F3 /* Pods_TeamworkTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D64BBB358F2A3FB3941BB3 /* Pods_TeamworkTestTests.framework */; };
+		EA06EED820BB9BC800B82964 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06EED720BB9BC800B82964 /* Project.swift */; };
+		EA06EEDB20BE21D200B82964 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06EEDA20BE21D200B82964 /* DashBoardViewController.swift */; };
+		EA06EEE120BE2BA300B82964 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06EEDF20BE2BA300B82964 /* ProjectTableViewCell.swift */; };
+		EA06EEE220BE2BA300B82964 /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA06EEE020BE2BA300B82964 /* ProjectTableViewCell.xib */; };
+		EA06EEE420BE309C00B82964 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06EEE320BE309C00B82964 /* BaseViewController.swift */; };
+		EAA1EAE220B78C06000ED386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1EAE120B78C06000ED386 /* AppDelegate.swift */; };
+		EAA1EAE420B78C06000ED386 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1EAE320B78C06000ED386 /* LoginViewController.swift */; };
+		EAA1EAE720B78C07000ED386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA1EAE520B78C07000ED386 /* Main.storyboard */; };
+		EAA1EAE920B78C07000ED386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA1EAE820B78C07000ED386 /* Assets.xcassets */; };
+		EAA1EAEC20B78C07000ED386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA1EAEA20B78C07000ED386 /* LaunchScreen.storyboard */; };
+		EAA1EAF720B78C07000ED386 /* TeamworkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1EAF620B78C07000ED386 /* TeamworkTestTests.swift */; };
+		EAA1EB0420B79458000ED386 /* TWLoginStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1EB0320B79458000ED386 /* TWLoginStore.swift */; };
+		EAA1EB0820B79DA5000ED386 /* TWApiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1EB0720B79DA5000ED386 /* TWApiStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA1EAF320B78C07000ED386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA1EAD620B78C06000ED386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA1EADD20B78C06000ED386;
+			remoteInfo = TeamworkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42B72E8F902BBA72EE7BA3D2 /* Pods-TeamworkTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTestTests/Pods-TeamworkTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		62BE02D07C3088728B952E1F /* Pods_TeamworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D64BBB358F2A3FB3941BB3 /* Pods_TeamworkTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamworkTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		912A87AC94FF4A6A3B26903E /* Pods-TeamworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.release.xcconfig"; sourceTree = "<group>"; };
+		BDF9AE84635D71D88293C499 /* Pods-TeamworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EA06EED720BB9BC800B82964 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		EA06EEDA20BE21D200B82964 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		EA06EEDF20BE2BA300B82964 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		EA06EEE020BE2BA300B82964 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
+		EA06EEE320BE309C00B82964 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EAA1EADE20B78C06000ED386 /* TeamworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA1EAE120B78C06000ED386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAA1EAE320B78C06000ED386 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EAA1EAE620B78C07000ED386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA1EAE820B78C07000ED386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA1EAEB20B78C07000ED386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAA1EAED20B78C07000ED386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA1EAF220B78C07000ED386 /* TeamworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA1EAF620B78C07000ED386 /* TeamworkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamworkTestTests.swift; sourceTree = "<group>"; };
+		EAA1EAF820B78C07000ED386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA1EB0320B79458000ED386 /* TWLoginStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWLoginStore.swift; sourceTree = "<group>"; };
+		EAA1EB0720B79DA5000ED386 /* TWApiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWApiStore.swift; sourceTree = "<group>"; };
+		F43C1470D4C5A55B28504813 /* Pods-TeamworkTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTestTests/Pods-TeamworkTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA1EADB20B78C06000ED386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF39D5ACAD4FDD2D02535A8 /* Pods_TeamworkTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA1EAEF20B78C07000ED386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D138E6C0990F5989D906F3 /* Pods_TeamworkTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBA8B6DF947F90C30B38936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62BE02D07C3088728B952E1F /* Pods_TeamworkTest.framework */,
+				84D64BBB358F2A3FB3941BB3 /* Pods_TeamworkTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6AC4CB994D419A16EA2362A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDF9AE84635D71D88293C499 /* Pods-TeamworkTest.debug.xcconfig */,
+				912A87AC94FF4A6A3B26903E /* Pods-TeamworkTest.release.xcconfig */,
+				F43C1470D4C5A55B28504813 /* Pods-TeamworkTestTests.debug.xcconfig */,
+				42B72E8F902BBA72EE7BA3D2 /* Pods-TeamworkTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA06EED620BB9BB200B82964 /* DataObject */ = {
+			isa = PBXGroup;
+			children = (
+				EA06EED720BB9BC800B82964 /* Project.swift */,
+			);
+			path = DataObject;
+			sourceTree = "<group>";
+		};
+		EA06EEDC20BE2B2900B82964 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1EAE320B78C06000ED386 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		EA06EEDD20BE2B4500B82964 /* DashBoardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA06EEDE20BE2B6900B82964 /* cell */,
+				EA06EEDA20BE21D200B82964 /* DashBoardViewController.swift */,
+			);
+			path = DashBoardViewController;
+			sourceTree = "<group>";
+		};
+		EA06EEDE20BE2B6900B82964 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				EA06EEDF20BE2BA300B82964 /* ProjectTableViewCell.swift */,
+				EA06EEE020BE2BA300B82964 /* ProjectTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		EAA1EAD520B78C06000ED386 = {
+			isa = PBXGroup;
+			children = (
+				EAA1EAE020B78C06000ED386 /* TeamworkTest */,
+				EAA1EAF520B78C07000ED386 /* TeamworkTestTests */,
+				EAA1EADF20B78C06000ED386 /* Products */,
+				E6AC4CB994D419A16EA2362A /* Pods */,
+				ABBA8B6DF947F90C30B38936 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA1EADF20B78C06000ED386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1EADE20B78C06000ED386 /* TeamworkTest.app */,
+				EAA1EAF220B78C07000ED386 /* TeamworkTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA1EAE020B78C06000ED386 /* TeamworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				EA06EED620BB9BB200B82964 /* DataObject */,
+				EAA1EB0220B7941D000ED386 /* Stores */,
+				EAA1EB0120B78D2A000ED386 /* ViewControllers */,
+				EAA1EAE120B78C06000ED386 /* AppDelegate.swift */,
+				EAA1EAE520B78C07000ED386 /* Main.storyboard */,
+				EAA1EAE820B78C07000ED386 /* Assets.xcassets */,
+				EAA1EAEA20B78C07000ED386 /* LaunchScreen.storyboard */,
+				EAA1EAED20B78C07000ED386 /* Info.plist */,
+			);
+			path = TeamworkTest;
+			sourceTree = "<group>";
+		};
+		EAA1EAF520B78C07000ED386 /* TeamworkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1EAF620B78C07000ED386 /* TeamworkTestTests.swift */,
+				EAA1EAF820B78C07000ED386 /* Info.plist */,
+			);
+			path = TeamworkTestTests;
+			sourceTree = "<group>";
+		};
+		EAA1EB0120B78D2A000ED386 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA06EEDD20BE2B4500B82964 /* DashBoardViewController */,
+				EA06EEDC20BE2B2900B82964 /* LoginViewController */,
+				EA06EEE320BE309C00B82964 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EAA1EB0220B7941D000ED386 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1EB0320B79458000ED386 /* TWLoginStore.swift */,
+				EAA1EB0720B79DA5000ED386 /* TWApiStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA1EADD20B78C06000ED386 /* TeamworkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA1EAFB20B78C07000ED386 /* Build configuration list for PBXNativeTarget "TeamworkTest" */;
+			buildPhases = (
+				DB58262077648420036874E4 /* [CP] Check Pods Manifest.lock */,
+				EAA1EADA20B78C06000ED386 /* Sources */,
+				EAA1EADB20B78C06000ED386 /* Frameworks */,
+				EAA1EADC20B78C06000ED386 /* Resources */,
+				4DA46AB319623411DE688CBF /* [CP] Embed Pods Frameworks */,
+				9C6A2F63E56C3E905D9185A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamworkTest;
+			productName = TeamworkTest;
+			productReference = EAA1EADE20B78C06000ED386 /* TeamworkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA1EAF120B78C07000ED386 /* TeamworkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA1EAFE20B78C07000ED386 /* Build configuration list for PBXNativeTarget "TeamworkTestTests" */;
+			buildPhases = (
+				0407E48909F7CBBB9AE63F6A /* [CP] Check Pods Manifest.lock */,
+				EAA1EAEE20B78C07000ED386 /* Sources */,
+				EAA1EAEF20B78C07000ED386 /* Frameworks */,
+				EAA1EAF020B78C07000ED386 /* Resources */,
+				D21B6F8A73A14EAFE381F902 /* [CP] Embed Pods Frameworks */,
+				866CA225DC6BBC58527FA43F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA1EAF420B78C07000ED386 /* PBXTargetDependency */,
+			);
+			name = TeamworkTestTests;
+			productName = TeamworkTestTests;
+			productReference = EAA1EAF220B78C07000ED386 /* TeamworkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA1EAD620B78C06000ED386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Teamwork;
+				TargetAttributes = {
+					EAA1EADD20B78C06000ED386 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EAA1EAF120B78C07000ED386 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAA1EADD20B78C06000ED386;
+					};
+				};
+			};
+			buildConfigurationList = EAA1EAD920B78C06000ED386 /* Build configuration list for PBXProject "TeamworkTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA1EAD520B78C06000ED386;
+			productRefGroup = EAA1EADF20B78C06000ED386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA1EADD20B78C06000ED386 /* TeamworkTest */,
+				EAA1EAF120B78C07000ED386 /* TeamworkTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA1EADC20B78C06000ED386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1EAEC20B78C07000ED386 /* LaunchScreen.storyboard in Resources */,
+				EAA1EAE920B78C07000ED386 /* Assets.xcassets in Resources */,
+				EAA1EAE720B78C07000ED386 /* Main.storyboard in Resources */,
+				EA06EEE220BE2BA300B82964 /* ProjectTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA1EAF020B78C07000ED386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0407E48909F7CBBB9AE63F6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamworkTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA46AB319623411DE688CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866CA225DC6BBC58527FA43F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamworkTestTests/Pods-TeamworkTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6A2F63E56C3E905D9185A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21B6F8A73A14EAFE381F902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamworkTestTests/Pods-TeamworkTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB58262077648420036874E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamworkTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA1EADA20B78C06000ED386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA06EEDB20BE21D200B82964 /* DashBoardViewController.swift in Sources */,
+				EA06EEE120BE2BA300B82964 /* ProjectTableViewCell.swift in Sources */,
+				EAA1EAE420B78C06000ED386 /* LoginViewController.swift in Sources */,
+				EAA1EB0820B79DA5000ED386 /* TWApiStore.swift in Sources */,
+				EAA1EB0420B79458000ED386 /* TWLoginStore.swift in Sources */,
+				EA06EEE420BE309C00B82964 /* BaseViewController.swift in Sources */,
+				EA06EED820BB9BC800B82964 /* Project.swift in Sources */,
+				EAA1EAE220B78C06000ED386 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA1EAEE20B78C07000ED386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1EAF720B78C07000ED386 /* TeamworkTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA1EAF420B78C07000ED386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA1EADD20B78C06000ED386 /* TeamworkTest */;
+			targetProxy = EAA1EAF320B78C07000ED386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAA1EAE520B78C07000ED386 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA1EAE620B78C07000ED386 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA1EAEA20B78C07000ED386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA1EAEB20B78C07000ED386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA1EAF920B78C07000ED386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAA1EAFA20B78C07000ED386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA1EAFC20B78C07000ED386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF9AE84635D71D88293C499 /* Pods-TeamworkTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMACVCZJJQ;
+				INFOPLIST_FILE = TeamworkTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Teamwork.TeamworkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA1EAFD20B78C07000ED386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912A87AC94FF4A6A3B26903E /* Pods-TeamworkTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMACVCZJJQ;
+				INFOPLIST_FILE = TeamworkTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Teamwork.TeamworkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAA1EAFF20B78C07000ED386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43C1470D4C5A55B28504813 /* Pods-TeamworkTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMACVCZJJQ;
+				INFOPLIST_FILE = TeamworkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Teamwork.TeamworkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamworkTest.app/TeamworkTest";
+			};
+			name = Debug;
+		};
+		EAA1EB0020B78C07000ED386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B72E8F902BBA72EE7BA3D2 /* Pods-TeamworkTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMACVCZJJQ;
+				INFOPLIST_FILE = TeamworkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Teamwork.TeamworkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamworkTest.app/TeamworkTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA1EAD920B78C06000ED386 /* Build configuration list for PBXProject "TeamworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA1EAF920B78C07000ED386 /* Debug */,
+				EAA1EAFA20B78C07000ED386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA1EAFB20B78C07000ED386 /* Build configuration list for PBXNativeTarget "TeamworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA1EAFC20B78C07000ED386 /* Debug */,
+				EAA1EAFD20B78C07000ED386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA1EAFE20B78C07000ED386 /* Build configuration list for PBXNativeTarget "TeamworkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA1EAFF20B78C07000ED386 /* Debug */,
+				EAA1EB0020B78C07000ED386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA1EAD620B78C06000ED386 /* Project object */;
+}
